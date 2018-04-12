@@ -1,0 +1,12 @@
+<h1 class="center-block">Simple App</h1>
+<div class="col-sm-6 col-md-6 col-lg-6">
+<form (ngSubmit)="onSubmit()" [formGroup]="form" class="form-group">
+    <div class="form-group">
+<div *ngFor="let control of dynamicControls">
+    <app-child-control [samplecontrol]="control" [form]="form"></app-child-control>
+</div>
+</div>
+<button class="btn btn-primary" type="submit">Save</button>
+</form>
+</div>
+

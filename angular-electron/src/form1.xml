@@ -1,0 +1,5 @@
+<form>
+<control key='dob' label='Date of Birth' value='1984-01-01' type='date' ></control>
+<control key='gender' label='Gender' value='male' type='dropdown'><options><option key='male' value='male'></option><option key='female' value='female'></option></options></control>
+<control key='firstName' label='First Name' value='Vinod' type='textbox' ></control>
+</form>
